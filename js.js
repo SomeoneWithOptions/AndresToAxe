@@ -39,4 +39,4 @@ function changeColors(){
 }
 
 setInterval(() => tooLong(),1000);
-setInterval(() => randomStyles(),(1000*60*60*24))
+setInterval(() => randomStyles(),(1000*60*60*6))
