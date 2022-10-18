@@ -38,4 +38,5 @@ function changeColors(){
 }
 
 setInterval(() => tooLong(),1000);
-setInterval(() => changeColors(),(1000*60*60*6))
+document.addEventListener('click',changeColors)
+
