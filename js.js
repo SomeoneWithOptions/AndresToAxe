@@ -31,9 +31,8 @@ function changeColors(){
   let background = colors[picked][0]
   let fontColor = colors[picked][1]
 
-  console.log (background,fontColor)
-
   let body = document.getElementsByTagName('body')[0]
+  
   body.style.backgroundColor = background
   body.style.color = fontColor
 }
