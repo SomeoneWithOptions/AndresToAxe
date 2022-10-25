@@ -31,12 +31,14 @@ function changeColors(){
   let background = colors[picked][0]
   let fontColor = colors[picked][1]
 
+  let instagramIcon = document.getElementById('instagram-icon')
   let contactLink = document.getElementById('contact')
   let body = document.getElementsByTagName('body')[0]
 
   body.style.backgroundColor = background
   body.style.color = fontColor
   contactLink.style.color = fontColor
+  instagramIcon.src = fontColor == "#ffffff" ?  "./Images/instagram-logo-white.png" : "./Images/instagram-logo-black.png"
 }
 
 setInterval(() => tooLong(),1000);
