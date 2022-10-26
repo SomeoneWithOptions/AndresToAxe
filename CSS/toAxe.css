@@ -40,7 +40,15 @@ strong {
     height: 25px;
     width: 25px;
     bottom : 10px;
-    left : 165px
+    left : 165px;
+    transition: all 400ms ease;
+}
+
+#instagram-icon:hover{
+    transform: scale(2);
+    left: 170px;
+    bottom: 20px;
+    transition: all 400ms ease;
 }
 
 @media (max-width: 520px) {
