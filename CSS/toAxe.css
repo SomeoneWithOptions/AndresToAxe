@@ -45,9 +45,9 @@ strong {
 }
 
 #instagram-icon:hover{
-    transform: scale(2);
+    transform: scale(1.5);
     left: 170px;
-    bottom: 20px;
+    bottom: 10px;
     transition: all 400ms ease;
 }
 
