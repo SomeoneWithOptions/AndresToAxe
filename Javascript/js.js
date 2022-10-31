@@ -25,9 +25,11 @@ function changeColors(){
     5:['#FFEF88','#141414'],
     6:['#000000','#ffffff'],
     7: ['#ffd6ff', '#141414'],
-    8: ['#200046', '#ffffff']
+    8: ['#200046', '#ffffff'],
+    9: ['#ffd6a5', '#141414'],
+    10: ['#036666', '#ffffff'],
   }
-  let picked = Math.floor(Math.random()*8)+1
+  let picked = Math.floor(Math.random()*(Object.keys(colors).length))+1
 
   let background = colors[picked][0]
   let fontColor = colors[picked][1]
