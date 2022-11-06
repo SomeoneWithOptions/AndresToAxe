@@ -57,12 +57,6 @@ strong {
          font-size: 3em;
          gap : 10px
        }
-    body {
-        align-items: flex-start;
-    }
-    main#counter{
-        margin-top: 70px;
-    }
 }    
 
 @media (max-width: 310px) {
@@ -70,9 +64,5 @@ strong {
     #counter {
         font-size: 2em;
         gap : 5px
-        }
-
-    main#counter{
-        margin-top: 120px;
         }
     }
